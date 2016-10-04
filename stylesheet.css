@@ -1,0 +1,12 @@
+#Huvud {
+	border: 0px solid #000;
+	text-align: center;
+	background-color: #bbb;
+	height: 80px;
+	position: relative;
+}
+
+#textHuvud {
+	position: absolute;
+	
+}
