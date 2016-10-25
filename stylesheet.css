@@ -1,12 +1,48 @@
+body {
+	background-color: #aaa;
+}
+
 #Huvud {
 	border: 0px solid #000;
-	text-align: center;
-	background-color: #bbb;
-	height: 80px;
+	background: url('./placeholder1.png');
+	height: 150px;
+	position: relative;
+	margin-top: -20px;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar li {
+	width: 150px;
+}
+
+#barnav{
+	box-shadow: 5px 5px 5px #888888;
+}
+
+#main_info{
+	margin-top: -20px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	width: 1000px;
+}
+
+#bild1 {
+	float: right;
 	position: relative;
 }
 
-#textHuvud {
-	position: absolute;
-	
+#fot {
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	width: 1000px;
 }
+
